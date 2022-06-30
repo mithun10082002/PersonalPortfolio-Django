@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    div {
+    outline-color:grey;
+    }
+
+    div.home {
+    outline-style: ridge;
+    margin: 50px;
+    font-family: "Courier New", Courier, monospace;
+    padding:50px;
+    }
+
+    table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    }
+
+    th, td {
+    background-color: #D5D8DC;
+    }
+
+    .data {
+    padding-left:200px;
+    font-weight: bold;
+    }
+</style>
+<body>
+<div class="home">
+    <hr>
+    <center><h1>Mithun Raj S</h1></center>
+    <hr>
+    <center><h2>Bio-Data</h2></center>
+    <br>
+    <div class="data">
+        <table style="width:80%">
+            <h3>Personal Details:</h3>
+            <tr>
+                <td>Full Name</td>
+                <td>Mithun Raj S</td>
+            </tr>
+            <tr>
+                <td>Religion</td>
+                <td>Hindu</td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td>10th august 2002</td>
+            </tr>
+            <tr>
+                <td>Height</td>
+                <td>5 ft 10 in</td>
+            </tr>
+            <tr>
+                <td>Blood Group</td>
+                <td>B+ve</td>
+            </tr>
+            <tr>
+                <td>Contact Number</td>
+                <td>6385522537</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>smithunraj2002@gamil.com</td>
+            </tr>
+            <tr>
+                <td>Place of Birth</td>
+                <td>Madurai</td>
+            </tr>
+            <tr>
+                <td>Educational Qualification</td>
+                <td>Bachelor of Technology</td>
+            </tr>
+        </table>
+        <table>
+            <h3>Family Details:</h3>
+            <tr>
+                <td>Fathers Name</td>
+                <td>Sekar A</td>
+            </tr>
+            <tr>
+                <td>Occupation Details</td>
+                <td>Blacksmith</td>
+            </tr>
+            <tr>
+                <td>Mothers Name</td>
+                <td>Bama P</td>
+            </tr>
+            <tr>
+                <td>Occupation Details</td>
+                <td>Civil Engineer</td>
+            </tr>
+            <tr>
+                <td>No. of Siblings</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Siblings Name</td>
+                <td>Sri Brindha S</td>
+            </tr>
+            <tr>
+                <td>Siblings Detail</td>
+                <td>Dentist</td>
+            </tr>
+        </table>
+        <table>
+            <h3>Address Details:</h3>
+            <tr>
+                <td>Address</td>
+                <td>Plot no 139 and 140, TNHB colony, Thoppur</td>
+            </tr>
+            <tr>
+                <td>Pin-code</td>
+                <td>625008</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <center><h4>*********</h4></center>
+    {% load static  %}
+    <hr>
+    <center>
+        <a href="https://www.linkedin.com/in/mithun-raj-88035521a/A"><img src="{% static 'portfolio/Linkedin.png' %}"></a>
+        <a href="https://twitter.com/MithunRajS6"><img src="{% static 'portfolio/Twitter.png' %}"></a>
+        <a href="https://www.facebook.com/Mithunraj007/"><img src="{% static 'portfolio/Facebook.png' %}"></a>
+    </center>
+    <hr>
+</div>
+</body>
+</html>

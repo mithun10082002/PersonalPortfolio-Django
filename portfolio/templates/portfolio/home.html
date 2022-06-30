@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mithun Raj</title>
+</head>
+<style>
+    div {
+    outline-color:grey;
+    }
+
+    div.home {
+    outline-style: ridge;
+    margin: 100px;
+    font-family: "Courier New", Courier, monospace;
+    padding:50px;
+    }
+
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    }
+
+    li {
+    float: left;
+    }
+
+    li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+    li a:hover {
+    background-color: #EAECEE;
+    }
+
+    .center {
+    padding-left: 530px;
+    }
+
+    .img {
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px #ABB2B9;
+    }
+
+    .intro {
+    font-family: cursive;
+    font-size: 20px;
+    }
+
+</style>
+<body>
+  <div class="home">
+      <center><h1>Mithun Raj S</h1></center>
+      <br>
+      <hr>
+      <ul class="center">
+          <li><a href="#home">Home</a></li>
+          <li><a href="bio">Bio</a></li>
+      </ul>
+      <hr>
+      <br>
+      {% load static  %}
+      <center><img class="img" src="{% static 'portfolio/MithunRaj.jpg' %}" width="500" height="500"></center>
+      <br>
+      <div class="intro">
+          <p>Hello everyone. My name is Mithun Raj. You can call me Mithun. I am 20 years old. I was born in Madurai, Tamil Nadu. At the moment I live in Madurai with my parents and grandparents. I completed my schooling in Kendriya Vidyalaya. Currently, I pursuing my final year at Sethu Institute of Technology. There are four people in my family.</p>
+          <p>I like to play cricket and football. My favorite cricketer is Virat Kohli. The reason behind is Virat is the first player in ICC cricket history to win all 3 ICC awards in a single year- ICC ODI player of the year, ICC Test player of the year and ICC Player of the year award in 2018. He is rated as one of the best batsman in the world. Apart from this he is a best human in the world. I love to watch cartoons and movies. My favorite cartoon is Phineas and Ferb. Phineas and Ferb is an American animated comedy-musical sitcom that centers around two stepbrothers, Phineas Flynn and Ferb Fletcher, their sister, Candace, their pet platypus, Perry, and their adventures during summer vacation. The series aired on both Disney Channel and Disney XD.</p>
+          <p>My favorite food is Biriyani. Whenever we go to the food court, I often order Biriyani. Biryani is a spiced mix of meat and rice, traditionally cooked over an open fire in a leather pot. It is combined in different ways with a variety of components to create several tasty and unique flavor combinations.</p>
+          <p>The color blue is always my favorite color. I am pretty sure that it is the favorite color of more than 50% of people around the world because it is the color that gives us great happiness when someone sees us in blue and praises us for the clothes that we are wearing. Nature gives us a lot which is of blue color like the sky, fruits, flowers and a lot more and seeing it all I had decided in the childhood only that blue would be my favorite color. Blue is the best. </p>
+          <center><p>Thank you...</p></center>
+      </div>
+      <hr>
+      <center>
+          <a href="https://www.linkedin.com/in/mithun-raj-88035521a/A"><img src="{% static 'portfolio/Linkedin.png' %}"></a>
+          <a href="https://twitter.com/MithunRajS6"><img src="{% static 'portfolio/Twitter.png' %}"></a>
+          <a href="https://www.facebook.com/Mithunraj007/"><img src="{% static 'portfolio/Facebook.png' %}"></a>
+      </center>
+      <hr>
+  </div>
+</body>
+</html>
